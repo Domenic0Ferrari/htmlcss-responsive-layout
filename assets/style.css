@@ -62,16 +62,78 @@ ul{
     }
 }
 
-/* main */
+/* main, prima finestra  */
 
 .white{
     background-color: white;
-    padding-inline: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
 }
 
 .container{
     max-width: 1000px;
-    height: 1000px;
-    border: 3px solid black;
+    padding-inline: 2rem;
     margin-inline: auto;
+    justify-content: flex-start;
+}
+
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.big-cell{
+    width: calc((2 * ((100% - 2rem) / 3)) + 1rem);
+    background-color: #B5DDFF;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.under-cell-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3rem 0 3rem 1rem;
+}
+
+.demo{
+    color: #0084FD;
+    font-size: 20px;
+}
+
+p{
+    color: #5A6E7F;
+    font-weight: bold;
+}
+
+.apple{
+    color: white;
+    background-color: #0084FD;
+    text-decoration: none;
+    padding: 0.5rem 4rem;
+    border-radius: 20px;
+}
+
+.under-cell-two{
+    width: 50%;
+}
+
+.phone{
+    width: 70%;
+    margin-inline: auto;
+    display: block;
+    margin-top: 3.5rem;
+}
+
+/* fine prima cell, inizio rimanenti */
+
+.small-cell{
+    width: calc((100% - 2rem ) / 3);
+    height: 300px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
 }
