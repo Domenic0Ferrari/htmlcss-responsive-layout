@@ -74,10 +74,10 @@ ul{
     max-width: 1000px;
     padding-inline: 2rem;
     margin-inline: auto;
-    justify-content: flex-start;
 }
 
 .one{
+    justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -202,3 +202,63 @@ ul{
 } 
 
 /* fine prima finestra del main, inizio seconda */
+
+.violet{
+    background-color: #9792E4;
+    width: 100%;
+}
+
+.due{
+    max-width: 700px;
+    display: flex;
+    gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.colonna-uno{
+    width: 50%;
+}
+
+.planning1{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.strategic{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 26px;
+}
+
+.text-white{
+    color: white;
+    font-size: 15px;
+}
+
+.colonna-due{
+    margin-top: 6rem;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.3rem;
+    border-radius: 30px;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.planning2{
+    width: 100%;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.fa-arrow-down{
+    background-color:#9792E4;
+    border-radius: 200px;
+    padding: 1rem;
+}
