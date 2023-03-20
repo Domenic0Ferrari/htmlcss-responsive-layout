@@ -67,7 +67,7 @@ ul{
 .white{
     background-color: white;
     margin-top: 3rem;
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 .container{
@@ -86,7 +86,6 @@ ul{
 .big-cell{
     width: calc((2 * ((100% - 2rem) / 3)) + 1rem);
     background-color: #B5DDFF;
-    height: 300px;
     border-radius: 20px;
     display: flex;
 }
@@ -97,6 +96,7 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 2rem;
     margin: 3rem 0 3rem 1rem;
 }
 
@@ -105,7 +105,7 @@ ul{
     font-size: 20px;
 }
 
-p{
+.text{
     color: #5A6E7F;
     font-weight: bold;
 }
@@ -123,17 +123,82 @@ p{
 }
 
 .phone{
-    width: 70%;
+    width: 90%;
     margin-inline: auto;
     display: block;
     margin-top: 3.5rem;
+}
+
+@media screen and (max-width:768px){
+    .big-cell{
+        flex-direction: column;
+    }
+
+    .under-cell-one{
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .phone{
+        margin-top: 1rem;
+    }
 }
 
 /* fine prima cell, inizio rimanenti */
 
 .small-cell{
     width: calc((100% - 2rem ) / 3);
-    height: 300px;
     background-color: #B5DDFF;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
 }
+
+.fa-file-code{
+    color: #0084FD;
+    font-size: 80px;
+}
+
+.fa-edit{
+    color: #0084FD;
+    font-size: 80px;
+}
+
+.fa-laptop-code{
+    color: #0084FD;
+    font-size: 80px;
+}
+
+.fa-code-branch{
+    color: #0084FD;
+    font-size: 80px;
+}
+
+@media screen and (max-width:480px) {
+    .one{
+        flex-direction: column;
+    }
+
+    .big-cell{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .under-cell-one{
+        align-items: center;
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+    .small-cell{
+        width: 100%;
+    }
+} 
+
+/* fine prima finestra del main, inizio seconda */
