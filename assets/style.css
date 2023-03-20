@@ -21,6 +21,7 @@ header{
 .navbar{
     max-width: 1000px;
     height: 100%;
+    padding-inline: 2rem;
     margin-inline: auto;
     display: flex;
     align-items: center;
@@ -44,3 +45,20 @@ ul{
     padding: 0.5rem 1rem;
     border-radius: 30px;
 }
+
+.hamburger{
+    display: none;
+    color: white;
+    font-size: 25px;
+}
+
+@media screen and (max-width:768px) {
+    .hamburger{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
