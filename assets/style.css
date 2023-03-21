@@ -14,6 +14,10 @@ p{
     line-height: 2;
 }
 
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 /* header */
 
 header{
@@ -314,16 +318,16 @@ ul{
 .circle{
     height: 150px;
     width: 150px;
-    border-radius: 100%;
-    overflow: hidden;
     position: relative;
 }
 
 .testimonial{
     height: 100%;
     width: 100%;
+    border-radius: 100%;
     object-fit: cover;
     object-position: center;
+    overflow: hidden;
 }
 
 .description{
@@ -442,6 +446,7 @@ ul{
     object-position: center;
     height: 100%;
     width: 100%;
+    border-radius: 100%;
 }
 
 .fa-quote-left{
@@ -465,4 +470,45 @@ ul{
         width: 100%;
         align-items: flex-start;
     }
+}
+
+/* sesta sezione */
+
+.six{
+    max-width: 600px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.free{
+    font-size: 90px;
+    color: #FCC160;
+}
+
+.beta{
+    font-size: 14px;
+    color: white;
+    padding: 2rem 0;
+}
+
+.get{
+    background-color: white;
+    color: #9792E4;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 1rem 5rem;
+}
+
+.copyright{
+    padding: 2rem 0;
+    font-size: 12px;
+    color: white;
+}
+
+.fa-circle{
+    font-size: 7px;
+}
+
+.privacy{
+    color: white;
 }
