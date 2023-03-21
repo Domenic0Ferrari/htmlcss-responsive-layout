@@ -70,7 +70,7 @@ ul{
     }
 }
 
-/* main, prima finestra  */
+/* main, prima sezione  */
 
 .white{
     background-color: white;
@@ -128,10 +128,14 @@ ul{
 
 .under-cell-two{
     width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .phone{
-    width: 90%;
+    width: 100%;
     margin-inline: auto;
     display: block;
     margin-top: 3.5rem;
@@ -144,6 +148,11 @@ ul{
 
     .under-cell-one{
         margin: 1rem 1rem 0 1rem;
+        width: 100%;
+    }
+
+    .under-cell-two{
+        width: 70%;
     }
 
     .phone{
