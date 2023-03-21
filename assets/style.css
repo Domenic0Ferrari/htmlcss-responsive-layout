@@ -10,6 +10,10 @@ ul{
     list-style: none;
 }
 
+p{
+    line-height: 2;
+}
+
 /* header */
 
 header{
@@ -208,7 +212,7 @@ ul{
     width: 100%;
 }
 
-.due{
+.two{
     max-width: 700px;
     display: flex;
     gap: 2rem;
@@ -286,7 +290,7 @@ ul{
 
 /* terza sezione */
 
-.tre{
+.three{
     text-align: center;
 }
 
@@ -312,6 +316,7 @@ ul{
     width: 150px;
     border-radius: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .testimonial{
@@ -349,8 +354,7 @@ ul{
     padding: 3rem 0;
 }
 
-.quattro{
-    height: px;
+.four{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -390,6 +394,7 @@ ul{
     text-decoration: none;
     padding: 0.3rem 2rem;
     border-radius: 30px;
+    align-self: flex-start;
 }
 
 @media screen and (max-width:768px){
@@ -401,5 +406,63 @@ ul{
 @media screen and (max-width:480px){
     .square{
         flex-basis: 100%;
+    }
+}
+
+/* quinta sezione */
+
+.five{
+    display: flex;
+    gap: 2.5rem;
+    padding-inline: 4rem;
+}
+
+.big-column{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.small-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 2rem;
+}
+
+.about-us{
+    color: #9792E4;
+    font-size: 45px;
+}
+
+.about{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.fa-quote-left{
+    position: absolute;
+    font-size: 50px;
+    color: #9792E4;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width:480px) {
+    .five{
+        flex-wrap: wrap;
+    }
+
+    .big-column{
+        width: 100%;
+    }
+
+    .small-column{
+        width: 100%;
+        align-items: flex-start;
     }
 }
