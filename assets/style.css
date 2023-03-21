@@ -512,3 +512,24 @@ ul{
 .privacy{
     color: white;
 }
+
+/* footer */
+
+footer{
+    background-color: #333333;
+}
+
+.seven{
+    max-width: 300px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.footer-link{
+    color: white;
+    font-size: 13px;
+}
+
+.lorem{
+    color: #9792E4;
+}
